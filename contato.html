@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cyberpunk 2077 | Página Inicial</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="icon" href="img/icon.png" type="image/png">
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo_gif_cyberpunk2077.gif" alt="Cyberpunk 2077 Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre o Jogo</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <h1>Entre em Contato</h1>
+        <p>Tem dúvidas sobre o jogo? Quer compartilhar sua experiência? Envie-nos uma mensagem!</p>
+        
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Assunto:</label>
+                <select id="subject" name="subject">
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="problema">Problema técnico</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+        
+        <section class="contact-info">
+            <h2>Outras Formas de Contato</h2>
+            <ul>
+                <li><i class="fas fa-envelope"></i> Email: info@cyberpunk.com</li>
+                <li><i class="fas fa-phone"></i> Telefone: (11) 99999-9999</li>
+                <li><i class="fas fa-map-marker-alt"></i> Endereço: Night City, Distrito Corporativo</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: info@cyberpunk.com</p>
+                <p>Tel: (11) 99999-9999</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Cyberpunk 2077. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
